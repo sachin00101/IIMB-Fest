@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>IIMB Fest 2024</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="main-div">
+			<img
+				src="https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png"
+				alt="iimb IIMB-Logo"
+				height="40px"
+			/>
+			<h1>IIMB fest- 2024</h1>
+			`
+		</div>
+		<br />
+		<nav>
+			<a href="./index.html">click here to go back to home page</a>
+		</nav>
+
+		<h2>register for the fest</h2>
+		<form action="/register">
+			<label for="name">Enter your name</label>
+			<input
+				type="text"
+				name="name"
+				id="name"
+				required
+				minlength="2"
+				maxlength="12"
+			/>
+			<br /><br />
+			<label for="email">enter your email adress</label>
+			<input
+				type="email"
+				name="email"
+				id="email"
+				required
+				minlength="2"
+				maxlength="12"
+			/>
+			<br /><br />
+			<label for="t_shirt_size">select t shirt size</label>
+			<select name="t_shirt_size" id="t_shirt_size" required>
+				<option value="">please select option</option>
+				<option value="36">36</option>
+				<option value="38">38</option>
+				<option value="40">40</option>
+				<option value="42">42</option>
+			</select>
+			<br /><br />
+			<label for="1">Do you agree to all conditions?</label>
+			<input type="checkbox" name="tnc" id="1" required />
+			<br /><br />
+			<label for="alumni">alumni</label>
+			<input
+				type="radio"
+				name="attendee type"
+				id="alumni"
+				value="alumni"
+			/>
+			<label for="student">student</label>
+			<input
+				type="radio"
+				name="attendee type"
+				id="student"
+				value="student"
+			/>
+			<br /><br />
+			<button type="submit">Register</button>
+		</form>
+	</body>
+</html>

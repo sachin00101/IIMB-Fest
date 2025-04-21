@@ -1,1 +1,105 @@
- hh
+html {
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	color: rgb(74, 26, 220);
+}
+
+button {
+	color: brown;
+}
+
+input {
+	color: rgb(153, 23, 49);
+}
+
+input {
+	color: blue;
+}
+
+.sachin {
+	color: brown;
+}
+
+header {
+	color: blue;
+}
+
+.main-div {
+	border: 5px solid #872828;
+	border-width: 0px 0px 5px 0px;
+	background-color: white;
+}
+
+.main-div>* {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-div>h1 {
+	color: #872828;
+	font-size: 60px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+p {
+	text-align: center;
+	font-size: x-large;
+	color: #002e3f;
+}
+
+nav {
+	text-align: center;
+}
+
+nav>a {
+	padding: 10px 10px;
+	border: 3px solid #872828;
+	height: 40px;
+	display: inline-block;
+	border-radius: 30px;
+	color: #002e3f;
+}
+
+nav :hover {
+	background-color: #872828;
+	color: white;
+}
+
+nav>a :hover :active {
+	color: aqua;
+}
+
+h2 {
+	color: #872828;
+}
+
+
+form {
+	color: #872828;
+}
+
+input {
+	border: 2px solid #872828;
+}
+
+select {
+	color: #872828;
+}
+
+button {
+	color: white;
+	background-color: #872828;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 0px solid black;
+	font-weight: bold;
+}
+
+body {
+	background-color: #f0f0f0;
+	margin: 0px;
+	padding: 10px;
+}
